@@ -136,4 +136,16 @@ img {
 @media screen and (max-width:768px){
 }
 
-
+@media screen and (max-width:480px){
+    .why-us{
+        background-color: rgb(26, 24, 24);
+        padding-top: 3rem;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .row .col{
+        width: 100%;
+    }
+   
+}
